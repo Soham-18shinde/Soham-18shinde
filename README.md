@@ -1,16 +1,61 @@
-## Hi there 👋
+Hi 👋
 
-<!--
-**Soham-18shinde/Soham-18shinde** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Soham Shinde
 
-Here are some ideas to get you started:
+Computer Science Student
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Full Stack Developer
+
+AI Enthusiast
+
+--------------------------------
+
+Skills
+
+React
+
+Next.js
+
+Node
+
+Express
+
+MongoDB
+
+Firebase
+
+Python
+
+JavaScript
+
+--------------------------------
+
+Projects
+
+🚑 ResQnet
+
+💡 DrishtiX
+
+🌍 AirSense
+
+🪖 Smart Helmet
+
+--------------------------------
+
+Achievements
+
+🏆 Top 15 National Hackathon
+
+🏆 Top 30 IIIT Hackathon
+
+🏆 Top 10 Ideathon
+
+--------------------------------
+
+Connect
+
+LinkedIn
+
+Portfolio
+
+Email
