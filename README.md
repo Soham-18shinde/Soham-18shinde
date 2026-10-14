@@ -1,61 +1,74 @@
-Hi 👋
+<div align="center">
 
-I'm Soham Shinde
+# Soham Shinde
+### Full-Stack Developer · CSE Student · AI Enthusiast
 
-Computer Science Student
+Building practical products, exploring new technologies, and learning by shipping.
 
-Full Stack Developer
+[![Profile Views](https://komarev.com/ghpvc/?username=Soham-18shinde&style=flat-square&color=7C3AED)](https://github.com/Soham-18shinde)
+[![GitHub followers](https://img.shields.io/github/followers/Soham-18shinde?style=flat-square&logo=github)](https://github.com/Soham-18shinde?tab=followers)
 
-AI Enthusiast
+</div>
 
---------------------------------
+---
 
-Skills
+## `whoami`
 
-React
+- 🎓 Computer Science & Engineering student, graduating in 2027
+- 💻 Interested in full-stack development, AI-powered applications, and building useful products
+- 🌱 Exploring Next.js, TypeScript, APIs, and cloud technologies
+- 📍 Pune, India
+- 💬 **“The more you explore, the more you find out.”**
 
-Next.js
+## Tech Stack
 
-Node
+<div align="center">
 
-Express
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,ts,js,nodejs,express,mongodb,firebase,python,cpp,tailwind,git,github&perline=7)](https://skillicons.dev)
 
-MongoDB
+</div>
 
-Firebase
+## Featured Projects
 
-Python
+| Project | Description |
+| --- | --- |
+| 🚑 **ResQnet** | AI-assisted emergency response project |
+| 💡 **DrishtiX** | Idea-sharing platform |
+| 🌍 **AirSense** | Air-quality monitoring and dashboard |
+| 🪖 **IoT Smart Helmet** | IoT-based safety project |
+| 💊 **MedLink** | Medical ordering platform with prescription upload and OCR assistance |
 
-JavaScript
+## GitHub Activity
 
---------------------------------
+<div align="center">
 
-Projects
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Soham-18shinde&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soham-18shinde&layout=compact&hide_border=true&theme=tokyonight" alt="Most used languages" />
 
-🚑 ResQnet
+<br/>
 
-💡 DrishtiX
+<img src="https://streak-stats.demolab.com?user=Soham-18shinde&theme=tokyonight&hide_border=true" alt="GitHub streak statistics" />
 
-🌍 AirSense
+</div>
 
-🪖 Smart Helmet
+## Achievements
 
---------------------------------
+- 🏆 Top 15 finalist — National Hackathon
+- 🏆 Top 30 finalist — IIIT Hackathon
+- 🏆 Top 10 — Ideathon
 
-Achievements
+## Connect
 
-🏆 Top 15 National Hackathon
+<div align="center">
 
-🏆 Top 30 IIIT Hackathon
+[![GitHub](https://img.shields.io/badge/GitHub-Soham--18shinde-181717?style=for-the-badge&logo=github)](https://github.com/Soham-18shinde)
 
-🏆 Top 10 Ideathon
+</div>
 
---------------------------------
+---
 
-Connect
+<div align="center">
 
-LinkedIn
+*“The more you explore, the more you find out.”*
 
-Portfolio
-
-Email
+</div>
