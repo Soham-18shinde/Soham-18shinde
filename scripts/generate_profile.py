@@ -108,7 +108,7 @@ def portrait():
             draw.text((pad, pad + row * line_h), line, font=font, fill=(87, 211, 145))
         frames.append(frame)
     if frames:
-        frames[0].save(ASSET / "ascii-profile.gif", save_all=True,
+        frames[0].save(ASSET / "ascii-profile-once.gif", save_all=True,
                        append_images=frames[1:], duration=55,
                        optimize=False, disposal=2)
         # Keep the SVG source available as a non-animated alternative.
