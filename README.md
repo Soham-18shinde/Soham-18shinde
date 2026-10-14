@@ -22,13 +22,13 @@ Currently focused on full-stack development with Next.js, React, TypeScript, Nod
 
 <img src="./hd-projects.svg" width="620" alt="Projects"/>
 
-**[MedLink](https://github.com/Soham-18shinde/MedInsureAI)** &nbsp;·&nbsp; <samp>next.js, typescript, OCR</samp><br>
+**[MedLink](https://github.com/Soham-18shinde/medlink)** &nbsp;·&nbsp; <samp>next.js, typescript, OCR</samp><br>
 Prescription workflows and OCR-assisted medicine extraction for a medical ordering platform.
 
 **[DrishtiX](https://github.com/Soham-18shinde/DrishtiX)** &nbsp;·&nbsp; <samp>next.js, react</samp><br>
 An idea-sharing platform built around discovering and developing concepts.
 
-**[RecoverOS](https://github.com/Soham-18shinde/resqnet-hub)** &nbsp;·&nbsp; <samp>python, fastapi, postgresql</samp><br>
+**[RecoverOS](https://github.com/Soham-18shinde/recoveros)** &nbsp;·&nbsp; <samp>python, fastapi, postgresql</samp><br>
 A recovery-focused project with an API-driven backend.
 
 **[Portfolio Website](https://github.com/Soham-18shinde/PortFolio-Website)** &nbsp;·&nbsp; <samp>web, javascript</samp><br>
