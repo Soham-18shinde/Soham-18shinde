@@ -67,8 +67,17 @@ def portrait():
         image = Image.open(io.BytesIO(raw)).convert("RGB")
         side = min(image.size)
         left, top = (image.width-side)//2, (image.height-side)//2
-        image = ImageOps.autocontrast(image.crop((left, top, left+side, top+side)).convert("L"))
-        image = ImageEnhance.Contrast(image).enhance(1.3).resize((90, 42), Image.Resampling.LANCZOS)
+        image = image.crop((left, top, left+side, top+side)).resize((270, 270), Image.Resampling.LANCZOS)
+        # The profile photo has a deep-blue studio background. Key out blue-ish
+        # background pixels so the character ramp describes the person, not the backdrop.
+        px = image.load()
+        for yy in range(image.height):
+            for xx in range(image.width):
+                red, green, blue = px[xx, yy]
+                if blue > red * 1.13 and blue > green * 1.04 and blue < 155 and blue - red > 7:
+                    px[xx, yy] = (255, 255, 255)
+        image = ImageOps.autocontrast(image.convert("L"))
+        image = ImageEnhance.Contrast(image).enhance(1.45).resize((90, 42), Image.Resampling.LANCZOS)
     except ImportError as err:
         raise SystemExit("Pillow is required. Install it with: pip install pillow") from err
     lines = []
