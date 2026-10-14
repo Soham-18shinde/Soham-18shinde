@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Soham-18shinde/Soham-18shinde/main/assets/ascii-profile.svg" alt="Animated ASCII-style developer portrait" width="100%"/>
+[![View ASCII Profile Header](https://img.shields.io/badge/Terminal-View%20ASCII%20Profile-0b1220?style=for-the-badge&logo=github&logoColor=35d07f)](https://github.com/Soham-18shinde/Soham-18shinde/blob/main/assets/ascii-profile.svg)
 
 # Soham Shinde
 ### Full-Stack Developer · CSE Student · AI Enthusiast
