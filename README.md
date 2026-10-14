@@ -48,7 +48,7 @@ A showcase of my web development work.
 
 <img src="./hd-about-this-page.svg" width="620" alt="About this page"/>
 
-Every graphic except the linked ASCII portrait is generated locally in this repository. A scheduled GitHub Action uses the GitHub GraphQL API to refresh the contribution, streak, language, and year graphics once a day. The portrait generator converts the current GitHub avatar into character art. The SVG graphics use built-in animation and do not depend on third-party stat-image services.
+All profile graphics are generated in this repository. The ASCII portrait is linked separately rather than embedded in the page. A scheduled GitHub Action uses GitHub's GraphQL API to refresh the contribution, streak, language, and year graphics once a day, and regenerates the portrait from your GitHub avatar. The SVGs use built-in animation and do not depend on third-party stat-image services.
 
 🏆 Top 15 finalist — National Hackathon  
 🏆 Top 20 finalist — PCU Ideathon 3.0
