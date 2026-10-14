@@ -109,7 +109,7 @@ def portrait():
         frames.append(frame)
     if frames:
         frames[0].save(ASSET / "ascii-profile.gif", save_all=True,
-                       append_images=frames[1:], duration=55, loop=1,
+                       append_images=frames[1:], duration=55,
                        optimize=False, disposal=2)
         # Keep the SVG source available as a non-animated alternative.
     cw, lh, pad_svg = 7.8, 15, 12
