@@ -36,7 +36,7 @@ jobs:
         run: python scripts/generate_profile.py
       - name: Commit generated graphics if changed
         run: |
-          FILES="assets/ascii-profile.svg stats.svg streak.svg langs.svg year.svg hd-*.svg"
+          FILES="assets/ascii-profile.svg assets/ascii-profile.gif stats.svg streak.svg langs.svg year.svg hd-*.svg"
           if [ -z "$(git status --porcelain -- $FILES)" ]; then
             echo "No generated graphics changed."
             exit 0
