@@ -1,6 +1,6 @@
 <div align="center">
 
-[Open the animated ASCII portrait ↗](https://github.com/Soham-18shinde/Soham-18shinde/blob/main/assets/ascii-profile.svg)
+<img src="./assets/ascii-profile.svg" width="620" alt="Animated ASCII portrait of Soham Shinde"/>
 
 <img src="./stats.svg" width="620" alt="GitHub contributions over the last year"/>
 
