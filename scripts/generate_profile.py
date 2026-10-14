@@ -86,11 +86,36 @@ def portrait():
         lines.append(line.rstrip())
     while lines and not lines[0].strip(): lines.pop(0)
     while lines and not lines[-1].strip(): lines.pop()
-    cw, lh, pad = 7.8, 15, 12
-    out = begin_svg(90*cw+pad*2, len(lines)*lh+pad*2)
+    # Generate a GIF because GitHub's README image renderer may not reliably play
+    # SVG SMIL animations. Each frame reveals one additional ASCII line.
+    from PIL import Image, ImageDraw, ImageFont
+    import io
+    font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
+    try:
+        font = ImageFont.truetype(font_path, 10)
+    except OSError:
+        font = ImageFont.load_default()
+    char_w = 6.1
+    line_h = 11
+    pad = 12
+    width = int(90 * char_w + pad * 2)
+    height = len(lines) * line_h + pad * 2
+    frames = []
+    for visible in range(1, len(lines) + 1):
+        frame = Image.new("RGB", (width, height), (13, 17, 23))
+        draw = ImageDraw.Draw(frame)
+        for row, line in enumerate(lines[:visible]):
+            draw.text((pad, pad + row * line_h), line, font=font, fill=(87, 211, 145))
+        frames.append(frame)
+    if frames:
+        frames[0].save(ASSET / "ascii-profile.gif", save_all=True,
+                       append_images=frames[1:], duration=55, loop=0,
+                       optimize=False, disposal=2)
+        # Keep the SVG source available as a non-animated alternative.
+    cw, lh, pad_svg = 7.8, 15, 12
+    out = begin_svg(90*cw+pad_svg*2, len(lines)*lh+pad_svg*2)
     for i, line in enumerate(lines):
-        safe = esc(line)
-        out.append(f'<text x="{pad}" y="{pad+i*lh+11}" font-size="13" xml:space="preserve" class="ink">{safe}<animate attributeName="opacity" from="0" to="1" begin="{i*.05:.2f}s" dur=".18s" fill="freeze"/></text>')
+        out.append(f'<text x="{pad_svg}" y="{pad_svg+i*lh+11}" font-size="13" xml:space="preserve" class="ink">{esc(line)}</text>')
     out.append("</svg>")
     write(ASSET / "ascii-profile.svg", "".join(out))
 
