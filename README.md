@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/ascii-profile.svg" width="620" alt="Animated ASCII portrait of Soham Shinde"/>
+<img src="./assets/ascii-profile.gif" width="620" alt="ASCII portrait of Soham Shinde, generated line by line"/>
 
 <img src="./stats.svg" width="620" alt="GitHub contributions over the last year"/>
 
