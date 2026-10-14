@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b12"/>
+      <stop offset="1" stop-color="#101b2a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35d07f" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#35d07f" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#35d07f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="500" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="758" height="498" rx="17" fill="none" stroke="#244235"/>
+  <circle cx="25" cy="25" r="5" fill="#ff5f57"/><circle cx="43" cy="25" r="5" fill="#febc2e"/><circle cx="61" cy="25" r="5" fill="#28c840"/>
+  <text x="83" y="30" font-family="monospace" font-size="13" fill="#7f91a5">soham@github: ~/profile</text>
+  <text x="34" y="68" font-family="monospace" font-size="14" fill="#35d07f">$ render --mode ascii --portrait</text>
+  <g font-family="monospace" font-size="10.8" xml:space="preserve" fill="#79e6ad">
+    <text x="35" y="103">..........................................................</text>
+    <text x="35" y="113">...........................:::............................</text>
+    <text x="35" y="123">.....................  .. ..:::::.........................</text>
+    <text x="35" y="133">.................            ........:....................</text>
+    <text x="35" y="143">..............                    .  ::..................</text>
+    <text x="35" y="153">............                         .::.................</text>
+    <text x="35" y="163">..........                          . .::................</text>
+    <text x="35" y="173">.........             ...             .:::::..............</text>
+    <text x="35" y="183">.........       .:::::=+=-:---:::.     .::::::............</text>
+    <text x="35" y="193">.........      .--===++++++++=====-.  :::::::::::.........</text>
+    <text x="35" y="203">.........     .-====++++++++++++++*+..-:::::::::::........</text>
+    <text x="35" y="213">..........   .-++======+++=-:.::-=+*-.-::::::::::::.......</text>
+    <text x="35" y="223">............ .=+=-:.. .:=+=:...-:=+*=-=-:::::::::::::.....</text>
+    <text x="35" y="233">............. =+=:::.:::-++--::===+*++=-:::::::::::::::...</text>
+    <text x="35" y="243">...........----+=-:-----=++++==+**+*=-=::::::::::::::::::.</text>
+    <text x="35" y="253">...........-=+-++=+++++=++*++*******+==::::::::::::::::::.</text>
+    <text x="35" y="263">...........:-+-=*++***+=++***++******+-:---:::::::::::::..</text>
+    <text x="35" y="273">..........:::===++++*++======++++***+-:-----::::::::::::..</text>
+    <text x="35" y="283">..........::::-=++++++=-::---=-:+++*=:-:-----:::::::::::..</text>
+    <text x="35" y="293">..........::::::-===+-.::--====-=+=+=:-------::::::::::..</text>
+    <text x="35" y="303">...........:::::::====-===-==+*+===++------::-:::::::::..</text>
+    <text x="35" y="313">.........::::::::::=---=====+++=-==++------::::::::::::..</text>
+    <text x="35" y="323">........:::::::::::-=--:.....:-==++++: .---::::::::::::..</text>
+    <text x="35" y="333">........:::::::::::.==----::--==+=++=.. .:---:::::::::...</text>
+    <text x="35" y="343">.........:::::::::. :=-------====+=-. . . .:::::::::......</text>
+    <text x="35" y="353">............:::::.   :-------====-:. .  ...    ...::::...</text>
+    <text x="35" y="363">..........:::.....   .:----------:. ..    .. .      ..:--:</text>
+    <text x="35" y="373">............. ...  .  ..:-------:....                   ..</text>
+    <text x="35" y="383">..........   ....  .  .::-------.   .</text>
+    <text x="35" y="393">.......      ...      .---====-.</text>
+    <text x="35" y="403">.....                  .===== -</text>
+    <text x="35" y="413">..                      .=+==</text>
+    <text x="35" y="423">                         .=+:</text>
+  </g>
+  <g font-family="monospace" fill="#e4edf7">
+    <text x="495" y="145" font-size="25" font-weight="bold">SOHAM SHINDE</text>
+    <text x="495" y="176" font-size="13" fill="#35d07f">FULL-STACK DEVELOPER</text>
+    <text x="495" y="209" font-size="12" fill="#a7b6c8">Building things with</text>
+    <text x="495" y="229" font-size="12" fill="#a7b6c8">code, curiosity &amp; coffee.</text>
+    <text x="495" y="280" font-size="11" fill="#35d07f">$ whoami</text>
+    <text x="495" y="303" font-size="12">CSE · Class of 2027</text>
+    <text x="495" y="324" font-size="12">Pune, India</text>
+    <text x="495" y="363" font-size="11" fill="#7f91a5">The more you explore,</text>
+    <text x="495" y="381" font-size="11" fill="#7f91a5">the more you find out.</text>
+  </g>
+  <rect x="24" y="452" width="712" height="2" fill="#20352c"/>
+  <rect x="24" y="452" width="150" height="2" fill="url(#glow)">
+    <animate attributeName="x" values="24;586;24" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="34" y="477" font-family="monospace" font-size="11" fill="#5f7b6d">[ ASCII MODE: ACTIVE ]</text>
+  <text x="560" y="477" font-family="monospace" font-size="11" fill="#5f7b6d">SYSTEM ONLINE ▰▰▰</text>
+  <rect x="0" y="0" width="760" height="500" rx="18" fill="#7effb1" opacity=".035">
+    <animate attributeName="opacity" values=".015;.06;.015" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
