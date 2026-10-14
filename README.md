@@ -51,6 +51,15 @@ Building practical products, exploring new technologies, and learning by shippin
 
 </div>
 
+## Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Soham-18shinde/Soham-18shinde/output/github-contribution-grid-snake-dark.svg">
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Soham-18shinde/Soham-18shinde/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
 ## Achievements
 
 - 🏆 Top 15 finalist — National Hackathon
